@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="text-center mb-4">
+        <h1 class="mb-4 text-black fw-bold">Weather App</h1>
+        <div class="input-group mb-3 text-black">
+          <input type="text" id="cityInput" class="form-control" placeholder="Enter city name">
+          <button id="get-weather-btn" class="btn btn-dark">Get Weather</button>
+        </div>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="glass-card">
+            <div class="day d-flex flex-row justify-content-between">
+              <p id="day1-date">Friday</p>
+              <p id="day1-day">Monday</p>
+            </div>
+            <div>
+              <p id="city-name2"></p>
+              <img id="day1-icon" alt="Weather Icon" />
+              <p id="day1-temp">Temp: °C</p>
+              <p id="day1-desc">Condition: </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card">
+            <div class="day d-flex flex-row justify-content-between">
+              <p id="day2-date">Saturday</p>
+              <p id="day2-day">Saturday</p>
+            </div>
+            <div>
+              <p id="city-name3"></p>
+              <img id="day2-icon" alt="Weather Icon" />
+              <p id="day2-temp">Temp: °C</p>
+              <p id="day2-desc">Condition: </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card">
+            <div class="day d-flex flex-row justify-content-between">
+              <p id="day3-date">Sunday</p>
+              <p id="day3-day">Sunday</p>
+            </div>
+            <div>
+              <p id="city-name"></p>
+              <img id="day3-icon" alt="Weather Icon" />
+              <p id="day3-temp">Temp: °C</p>
+              <p id="day3-desc">Condition: </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+
